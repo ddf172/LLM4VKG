@@ -41,4 +41,4 @@ if ! "$pg_bin/pg_ctl" -D "$runtime/pgdata" status >/dev/null 2>&1; then
     "$pg_bin/pg_ctl" -D "$runtime/pgdata" -l "$runtime/postgres.log" \
         -o "-p 55439 -h 127.0.0.1 -k /tmp" -w start
 fi
-echo 'Ready. Run: ./.eda_runtime/venv/bin/python scripts/run_eda.py'
+echo 'Ready. Run: ./.eda_runtime/venv/bin/python -m jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=600 docs/EDA.ipynb'
