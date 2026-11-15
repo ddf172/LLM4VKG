@@ -1,0 +1,3 @@
+dataset,triples,predicates,resource_nodes,literal_nodes,classes,object_properties,data_properties,named_individuals,explicit_class_instances,terms,labeled,commented,subclass_axioms
+cmt_structured,468,16,126,103,30,49,11,0,0,90,89,12,33
+sigkdd_renamed,371,12,122,84,49,21,18,0,0,88,0,84,49

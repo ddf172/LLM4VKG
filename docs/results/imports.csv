@@ -1,0 +1,5 @@
+dataset,removed_legacy_setting,removed_database_commands,exit_code
+cmt_structured,1,0,0
+sigkdd_renamed,1,0,0
+chinook,0,3,0
+northwind,1,0,0

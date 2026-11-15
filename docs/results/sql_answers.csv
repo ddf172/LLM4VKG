@@ -1,0 +1,59 @@
+dataset,query,result_rows,sample,sql_ok
+cmt_structured,Q01,1,[[774]],True
+cmt_structured,Q02,1,[[564]],True
+cmt_structured,Q03,1,[[402]],True
+cmt_structured,Q04,1,[[7]],True
+cmt_structured,Q06,1,[[477]],True
+cmt_structured,Q07,1,[[1468]],True
+cmt_structured,Q08,1,[[367]],True
+cmt_structured,Q09,1,[[367]],True
+cmt_structured,Q10,1,[[734]],True
+cmt_structured,Q11,1,[[7]],True
+cmt_structured,Q12,1,[[27]],True
+cmt_structured,Q14,1,[[6]],True
+cmt_structured,Q20,774,"[[""Nia Drakes""], [""Cenon Colon""], [""Dijana Murfin""]]",True
+cmt_structured,Q23,774,"[[""Nia.Drakes@secretresearch.tld""], [""Cenon.Colon@secretresearch.tld""], [""Dijana.Murfin@secretresearch.tld""]]",True
+cmt_structured,Q25,7,"[[""ZSWC""], [""XSWC""], [""XSWC""]]",True
+cmt_structured,Q26,7,"[[""2014-05-04""], [""2015-05-06""], [""2014-05-02""]]",True
+cmt_structured,Q28,7,"[[""SIGXYZ 2014 Program Committee""], [""XSWC 2015 Program Committee""], [""XSWC 2014 Program Committee""]]",True
+cmt_structured,Q32,367,"[[233], [364], [119]]",True
+cmt_structured,Q34,367,"[[""equalled sandwiching bewitchment cheaters""], [""immediately canzona interrelated cooked""], [""giros podgy vagus kinkiest xix""]]",True
+cmt_structured,Q35,367,"[[37], [65], [27]]",True
+cmt_structured,Q36,367,"[[""cerebrum gloves mohairs admiralties""], [""cheaters riffled kerneling napoleons""], [""pirog desexes summable heliocentricity excretions recelebrating""]]",True
+cmt_structured,Q38,734,"[[""The paper \""XSWC-2014\"" is mainly about XSWC-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight XSWC-2014 in particular""], [""The paper \""ZSWC-2014\"" is mainly about ZSWC-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ZSWC-2014 in particular""], [""In their paper 'XSWC-2015' the authors discuss XSWC-2015.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight XSWC-2015 in particular""]]",True
+cmt_structured,Q40,7,"[[""http://ZSWC-2014.tld""], [""http://XSWC-2015.tld""], [""http://XSWC-2014.tld""]]",True
+cmt_structured,Q41,1,[[367]],True
+cmt_structured,Q42,1,[[612]],True
+cmt_structured,Q43,1,[[734]],True
+cmt_structured,Q45,1,[[734]],True
+cmt_structured,Q46,1,[[31]],True
+cmt_structured,Q48,1,[[245]],True
+sigkdd_renamed,Q01,1,[[579]],True
+sigkdd_renamed,Q02,1,[[564]],True
+sigkdd_renamed,Q03,1,[[564]],True
+sigkdd_renamed,Q04,1,[[7]],True
+sigkdd_renamed,Q07,1,[[1468]],True
+sigkdd_renamed,Q08,1,[[367]],True
+sigkdd_renamed,Q09,1,[[367]],True
+sigkdd_renamed,Q10,1,[[734]],True
+sigkdd_renamed,Q11,1,[[7]],True
+sigkdd_renamed,Q12,1,[[33]],True
+sigkdd_renamed,Q13,1,[[227]],True
+sigkdd_renamed,Q14,1,[[6]],True
+sigkdd_renamed,Q15,1,[[143]],True
+sigkdd_renamed,Q17,1,[[7]],True
+sigkdd_renamed,Q18,1,[[7]],True
+sigkdd_renamed,Q20,579,"[[""Mirra Tygart""], [""Marna Crookshanks""], [""Lili Atoe""]]",True
+sigkdd_renamed,Q23,564,"[[""Herberta.Fullenwider@secretresearch.tld""], [""Shesha.Humbird@secretresearch.tld""], [""Hidemichi.Tropp@secretresearch.tld""]]",True
+sigkdd_renamed,Q25,7,"[[""ZSWC""], [""ZSWC""], [""XSWC""]]",True
+sigkdd_renamed,Q26,7,"[[""2015-05-08""], [""2014-05-04""], [""2015-05-06""]]",True
+sigkdd_renamed,Q27,7,"[[""Benguela""], [""Annaba""], [""Andorra La Vella""]]",True
+sigkdd_renamed,Q28,7,"[[""ZSWC 2015 Program Committee""], [""YSWC 2014 Program Committee""], [""ZSWC 2014 Program Committee""]]",True
+sigkdd_renamed,Q29,7,"[[752], [753], [757]]",True
+sigkdd_renamed,Q34,367,"[[""kerneling napoleons rifer splinting surmisers satisfying undamped""], [""rhythmical wastebaskets powderer immigrates inserter""], [""conditione loathly cancels debiting parrots paraguayans resonates overbites""]]",True
+sigkdd_renamed,Q36,367,"[[""admiralties bewigged playgoers cheques batting waspishly stilbestrol""], [""forbearer anesthetization undermentioned outflanking""], [""loftily yabber reprovingly blungers dwarflike""]]",True
+sigkdd_renamed,Q38,734,"[[""In their paper 'SIGXYZ-2014' the authors discuss SIGXYZ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight SIGXYZ-2014 in particular""], [""The paper \""XSWC-2014\"" is mainly about XSWC-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight XSWC-2014 in particular""], [""The paper \""XSWC-2015\"" is mainly about XSWC-2015.\nThough apparently a contribution of remarkable novelty, 'XSWC-2015' also has its weaknesses.""]]",True
+sigkdd_renamed,Q41,1,[[979]],True
+sigkdd_renamed,Q42,1,[[979]],True
+sigkdd_renamed,Q44,1,[[734]],True
+sigkdd_renamed,Q47,1,[[7]],True

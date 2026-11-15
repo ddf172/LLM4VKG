@@ -218,3 +218,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local EDA environment (PostgreSQL and Python)
+.eda_runtime/
+tmp/

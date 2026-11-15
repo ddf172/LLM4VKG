@@ -1,0 +1,116 @@
+dataset,table,rows,source_rows,columns,pk,fks,duplicate_pk,null_pk
+cmt_structured,Acceptance,0,0,2,ID,0,0,0
+cmt_structured,Administrator,0,0,2,ID,2,0,0
+cmt_structured,Bid,0,0,3,ID,2,0,0
+cmt_structured,Conference,7,7,7,ID,0,0,0
+cmt_structured,Document,1468,1468,1,ID,0,0,0
+cmt_structured,Paper,734,734,9,ID,6,0,0
+cmt_structured,Person,774,774,9,ID,1,0,0
+cmt_structured,Preference,0,0,1,ID,0,0,0
+cmt_structured,ProgramCommittee,7,7,2,ID,0,0,0
+cmt_structured,ProgramCommitteeChair,6,6,3,ID,2,0,0
+cmt_structured,ProgramCommitteeMember,27,27,3,ID,2,0,0
+cmt_structured,Review,734,734,4,ID,2,0,0
+cmt_structured,SubjectArea,0,0,1,ID,0,0,0
+cmt_structured,assignReviewer,0,0,2,"Administrator, Reviewer",2,0,0
+cmt_structured,assignedTo,734,734,2,"Paper, Reviewer",2,0,0
+cmt_structured,co-writePaper,612,612,2,"Co-author, Paper",2,0,0
+cmt_structured,detailsEnteredBy,0,0,2,"Conference, Administrator",2,0,0
+cmt_structured,enableVirtualMeeting,0,0,2,"Administrator, Conference",2,0,0
+cmt_structured,endReview,0,0,2,"ProgramCommitteeChair, Review",2,0,0
+cmt_structured,enterReviewCriteria,0,0,2,"Administrator, Conference",2,0,0
+cmt_structured,finalizePaperAssignment,0,0,2,"Administrator, Conference",2,0,0
+cmt_structured,hardcopyMailingManifestsP,0,0,2,"Conference, Administrator",2,0,0
+cmt_structured,hasConferenceMember,245,245,2,"Conference, ConferenceMember",2,0,0
+cmt_structured,hasConflictOfInterest,0,0,2,"Person, Document",2,0,0
+cmt_structured,hasProgramCommitteeMember,38,38,2,"ProgramCommittee, ProgramCommitteeMember",1,0,0
+cmt_structured,hasSubjectArea,0,0,2,"Paper, SubjectArea",2,0,0
+cmt_structured,markConflictOfInterest,0,0,2,"ConferenceMember, Paper",1,0,0
+cmt_structured,paperAssignmentToolsRunBy,0,0,2,"Conference, Administrator",2,0,0
+cmt_structured,readByReviewer,0,0,2,"Paper, Reviewer",2,0,0
+cmt_structured,reviewerBiddingStartedBy,0,0,2,"Conference, Administrator",2,0,0
+cmt_structured,setMaxPapers,0,0,2,"Administrator, ProgramCommitteeMember",1,0,0
+cmt_structured,submitPaper,0,0,2,"Author, Paper",2,0,0
+sigkdd_renamed,abstracts,367,367,2,id,1,0,0
+sigkdd_renamed,acm_sigkdds,0,0,1,id,0,0,0
+sigkdd_renamed,author_deadline_author_notificat,0,0,2,"aid, did",2,0,0
+sigkdd_renamed,author_paper_students,227,227,1,id,1,0,0
+sigkdd_renamed,author_papers,0,0,1,id,1,0,0
+sigkdd_renamed,authors,564,564,1,id,1,0,0
+sigkdd_renamed,award_author,0,0,2,"author, award",2,0,0
+sigkdd_renamed,awards,0,0,1,id,0,0,0
+sigkdd_renamed,best_applications_paper_as,0,0,1,id,1,0,0
+sigkdd_renamed,best_paper_awards_committs,0,0,2,id,2,0,0
+sigkdd_renamed,best_research_paper_awards,0,0,1,id,1,0,0
+sigkdd_renamed,best_student_paper_awards,0,0,1,id,1,0,0
+sigkdd_renamed,best_student_paper_suppors,0,0,1,id,1,0,0
+sigkdd_renamed,bronze_supporters,0,0,1,id,1,0,0
+sigkdd_renamed,committees,7,7,3,id,2,0,0
+sigkdd_renamed,conference_halls,0,0,1,id,1,0,0
+sigkdd_renamed,conferences,7,7,6,id,1,0,0
+sigkdd_renamed,deadline_abstract_submiss,0,0,1,id,1,0,0
+sigkdd_renamed,deadline_author_notificats,0,0,1,id,1,0,0
+sigkdd_renamed,deadline_document,0,0,2,"document, deadline",2,0,0
+sigkdd_renamed,deadline_paper_submissions,0,0,1,id,1,0,0
+sigkdd_renamed,deadlines,0,0,3,id,1,0,0
+sigkdd_renamed,documents,1468,1468,1,id,0,0,0
+sigkdd_renamed,e_mails,564,564,2,"person, value",1,0,0
+sigkdd_renamed,exhibitors,0,0,1,id,1,0,0
+sigkdd_renamed,fees,14,14,3,id,0,0,0
+sigkdd_renamed,general_chairs,0,0,1,id,1,0,0
+sigkdd_renamed,gold_supporters,0,0,1,id,1,0,0
+sigkdd_renamed,hotels,0,0,1,id,1,0,0
+sigkdd_renamed,invited_speakers,0,0,1,id,1,0,0
+sigkdd_renamed,listeners,143,143,1,id,1,0,0
+sigkdd_renamed,main_offices,0,0,1,id,1,0,0
+sigkdd_renamed,organizators,33,33,1,id,1,0,0
+sigkdd_renamed,organizing_committee_membs,0,0,1,id,1,0,0
+sigkdd_renamed,organizing_committees,0,0,1,id,1,0,0
+sigkdd_renamed,paper_author,979,979,2,"aid, pid",2,0,0
+sigkdd_renamed,papers,367,367,2,id,1,0,0
+sigkdd_renamed,persons,579,579,3,id,0,0,0
+sigkdd_renamed,place_person,0,0,2,"person, place",2,0,0
+sigkdd_renamed,places,0,0,5,id,0,0,0
+sigkdd_renamed,platinum_supporters,0,0,1,id,1,0,0
+sigkdd_renamed,program_chairs,6,6,1,id,1,0,0
+sigkdd_renamed,program_committee_members,33,33,1,id,1,0,0
+sigkdd_renamed,program_committees,7,7,2,id,1,0,0
+sigkdd_renamed,registration_fee_person,0,0,2,"pid, rid",2,0,0
+sigkdd_renamed,registration_fees,7,7,1,id,1,0,0
+sigkdd_renamed,registration_non_members,0,0,1,id,1,0,0
+sigkdd_renamed,registration_sigkdd_members,0,0,1,id,1,0,0
+sigkdd_renamed,registration_sigmod_members,0,0,1,id,1,0,0
+sigkdd_renamed,registration_students,0,0,1,id,1,0,0
+sigkdd_renamed,reviews,734,734,5,id,3,0,0
+sigkdd_renamed,silver_supporters,0,0,1,id,1,0,0
+sigkdd_renamed,speaker_document,0,0,2,"sid, did",2,0,0
+sigkdd_renamed,speakers,564,564,1,id,1,0,0
+sigkdd_renamed,sponzor_acm_sigkdd,0,0,2,"aid, sid",2,0,0
+sigkdd_renamed,sponzor_fees,7,7,1,id,1,0,0
+sigkdd_renamed,sponzors,0,0,2,id,1,0,0
+sigkdd_renamed,webmasters,0,0,1,id,1,0,0
+chinook,album,347,347,3,album_id,1,0,0
+chinook,artist,275,275,2,artist_id,0,0,0
+chinook,customer,59,59,13,customer_id,1,0,0
+chinook,employee,8,8,15,employee_id,1,0,0
+chinook,genre,25,25,2,genre_id,0,0,0
+chinook,invoice,412,412,9,invoice_id,1,0,0
+chinook,invoice_line,2240,2240,5,invoice_line_id,2,0,0
+chinook,media_type,5,5,2,media_type_id,0,0,0
+chinook,playlist,18,18,2,playlist_id,0,0,0
+chinook,playlist_track,8715,8715,2,"playlist_id, track_id",2,0,0
+chinook,track,3503,3503,9,track_id,3,0,0
+northwind,categories,8,8,4,category_id,0,0,0
+northwind,customer_customer_demo,0,0,2,"customer_id, customer_type_id",2,0,0
+northwind,customer_demographics,0,0,2,customer_type_id,0,0,0
+northwind,customers,91,91,11,customer_id,0,0,0
+northwind,employee_territories,49,49,2,"employee_id, territory_id",2,0,0
+northwind,employees,9,9,18,employee_id,1,0,0
+northwind,order_details,2155,2155,5,"order_id, product_id",2,0,0
+northwind,orders,830,830,14,order_id,3,0,0
+northwind,products,77,77,10,product_id,2,0,0
+northwind,region,4,4,2,region_id,0,0,0
+northwind,shippers,6,6,3,shipper_id,0,0,0
+northwind,suppliers,29,29,12,supplier_id,0,0,0
+northwind,territories,53,53,3,territory_id,1,0,0
+northwind,us_states,51,51,4,state_id,0,0,0
